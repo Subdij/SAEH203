@@ -1,0 +1,127 @@
+html{width:100%; height:100%;}
+body{width:100%; height:100%;}
+
+#tableau{
+    display: flex;
+    flex-flow: row;
+    width:100%;
+    height:80%;
+    justify-content: space-evenly;
+}
+
+#page h1{
+    font-family: "norms";
+    font-size: 32px;
+    color : #2f2a85;
+    text-align: center;
+}
+
+#page{
+    display: flex;
+    flex-flow: column;
+    width:100%;
+    height:100%;
+    justify-content: space-evenly;
+}
+
+#gauche{
+    display: flex;
+    width:40%;
+    flex-flow: column;
+    border: solid #2f2a85;
+    overflow-y:scroll ;
+}
+
+#droite{
+    display: flex;
+    width:40%;
+    flex-flow: column;
+    border:solid #2f2a85;
+    overflow-y: scroll;
+}
+
+.menu{
+    height:20%;
+    width:90%;
+    display: flex;
+    margin : 10px auto;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    border:solid #2f2a85;
+}
+
+#div2haut{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#val{
+    background-color:#92c56e;
+    border:0;
+    color:#FFFFFF;
+    border-radius: 100px;
+}
+
+#ref{
+    background-color: #d2213c;
+    border:0;
+    color:#FFFFFF;
+    border-radius: 100px;
+}
+
+#div2haut a{
+    height:30px;
+    width:20%;
+    transition: 1s;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#div2haut a:hover{
+    transform: scale(1.2);
+}
+
+.div1 img{
+    height:100%;
+    width:auto;
+}
+
+.div2{
+    flex-flow: column;
+    font-family: "norms";
+    width:100%;
+    color:#2f2a85;
+}
+
+.div3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-flow: row;
+}
+
+.div4{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-flow: row;
+}
+
+.div3>h2{
+    font-size: 1em;
+    margin:20px;
+}
+
+#refus{
+    color:#FFFFFF;
+    border-radius: 100px;
+    background-color: #d2213c;
+    height: 2em;
+    width:100px;
+    text-align: center;
+    line-height: 2em;
+}
+
+#acc{color:#FFFFFF;border-radius: 100px;background-color: #92c56e;height: 2em; width:100px;text-align: center;line-height: 2em;}
